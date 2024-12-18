@@ -1,0 +1,151 @@
+cv:
+  name: Ryan Cranie
+  location: United Kingdom
+  email: mail@ryancranie.com
+  phone: tel:+44-1234-567890
+  website: https://ryancranie.com/
+  social_networks:
+    - network: GitHub
+      username: ryancranie
+    - network: LinkedIn
+      username: ryancranie
+  sections:
+    experience: 
+      - company: WorldSkills UK
+        position: ITNSA Squad Member
+        location: United Kingdom
+        start_date: 2022-11
+        end_date: 2026-08
+        highlights:
+          - Top performant in nationwide technical IT competitions - selected from over 200 participants, securing a top-4 spot to enter WorldSkills UK’s IT networking training program ([competition](https://www.worldskillsuk.org/competitions/it-support-technician/))
+          - Committed to a structured training regimen alongside academic studies, using Cisco CML, Microsoft Server, and Linux CLI, consistently achieving 95%+ accuracy in network technician simulations ([article](https://uwtsdcomputing.blog/2024/03/25/training-selection-for-team-uk-worldskills-squad/))
+          - Awarded a WorldSkills UK *Certificate of Excellence* in national competition
+      - company: WorldSkills Asia 2023
+        position: Team UK IT-NSA Representative
+        location: Abu Dhabi, UAE
+        start_date: 2023-11
+        end_date: 2023-12
+        highlights:
+          - Chosen individual to represent the UK in a prestigious 3-day troubleshooting competition out in Abu Dhabi, tasked with building and configuring complex networks under live audience pressure
+          - Resolved network configuration issues, configured and redistributed EIGRP and OSPF, implmemented successful Linux/Microsoft server configuration
+    projects:
+      - name: Evaluating Lightweight Cryptography for Secure Firmware Updates in IoT
+        start_date: 2024-08
+        end_date: 2025-05
+        highlights:
+          - Undergraduate thesis exploring secure, efficient cryptographic protocols for secure firmware updates in resource-constrained smart home IoT devices
+          - Implemented symmetric protocols (e.g., AES-128) and asymmetric protocols (e.g., ECDSA, Ed25519) to determine their suitability in real world applications
+      - name: Security Assessment of a Simulated Chemical Plant ICS
+        start_date: 2024-10
+        end_date: 2024-12
+        highlights:
+          - Conducted security assessment of an Industrial Control System, including vulnerability identification and exploitation (MITM, brute force) using tools like Nmap, Wireshark, and Ettercap
+          - Designed and a Python-based script to overwrite HMI controls, deployed an ettercap filter MITM attack to render the HMI useless. 
+      - name: Dijhitech Research Labs - Internal Penetration Test
+        start_date: 2024-01
+        end_date: 2024-04
+        highlights:
+          - Directed a 6-member team in a black-box penetration test, dedicating 50+ hours to uncover and document 9 critical vulnerabilities, enhancing security posture.
+          - Utilized kali tools including Nmap, SSLScan, DIRB, Netcat, and ltrace for comprehensive reconnaissance, vulnerability assessment, and exploitation.
+    education:
+        - institution: Glasgow Caledonian University
+          area: Cyber Security & Networks
+          degree: BSc (Hons)
+          start_date: 2023-09
+          end_date: 2025-05
+          highlights:
+            - 'Expected Classifiation: 1st'
+            - '**Notable Modules:** Enterprise Networking, SOC Operations, Applied Penetration Testing'
+        - institution: New College Lanarkshire
+          area: Cyber Security
+          degree: HND
+          start_date: 2021-09
+          end_date: 2023-05
+          highlights:
+            - 'Graded Unit: A'
+            - '**Notable Modules:** Cisco Switching and Routing, Digital Forensics, Ethical Hacking'
+        - institution: '[REDACTED]'
+          area: Secondary Education
+          start_date: 2018-09
+          end_date: 2022-06
+          highlights:
+            - '**Scottish Highers:** ABBB inc. Computing (A), Maths (B)'
+            - '**10x GCSEs:** 8-5 inc. ICT (8), Maths (8)'
+    Skills:
+      - label: Technical
+        details: Network Design/Implementation, Troubleshooting, Python, git, Linux, Powershell, Kali tools, Documentation 
+      - label: Achievements
+        details: University Class Rep, UKMT Maths Challenge Merit, eSports Success, WorldSkills Squad UK
+
+design:
+  theme: sb2nov
+  font: Latin Modern Serif
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: true
+  page_numbering_style: References available on request
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 24 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 0.7 cm
+      bottom: 0.7 cm
+      left: 1.1 cm
+      right: 1.1 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+
+locale_catalog:
+  phone_number_format: national 
+  date_style: "MONTH_ABBREVIATION YEAR" 
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: "-"
